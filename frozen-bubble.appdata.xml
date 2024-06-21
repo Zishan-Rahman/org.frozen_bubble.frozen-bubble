@@ -6,6 +6,7 @@ SentUpstream: 2014-09-17
 -->
 <component type="desktop">
   <id>org.frozen_bubble.frozen-bubble</id>
+  <developer_name>The Frozen-Bubble Team</developer_name>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <launchable type="desktop-id">org.frozen_bubble.frozen-bubble.desktop</launchable>
@@ -26,7 +27,7 @@ SentUpstream: 2014-09-17
   </description>
   <url type="homepage">http://www.frozen-bubble.org/</url>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">https://upload.wikimedia.org/wikipedia/commons/3/34/Frozen_Bubble_2_-_Single_player.png</image>
       <caption>Single Player</caption>
     </screenshot>
