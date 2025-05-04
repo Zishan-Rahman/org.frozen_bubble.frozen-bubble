@@ -1,5 +1,5 @@
 {
-    "app-id": "org.frozen_bubble.frozen-bubble",
+    "id": "org.frozen_bubble.frozen-bubble",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
