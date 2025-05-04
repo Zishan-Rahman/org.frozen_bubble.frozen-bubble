@@ -377,6 +377,10 @@
                 {
                     "type": "file",
                     "path": "frozen-bubble.appdata.xml"
+                },
+                {
+                    "type": "file",
+                    "path": "frozen-bubble-icon-128x128.png"
                 }
             ],
             "post-install": [
@@ -391,7 +395,9 @@
                 "mkdir -p /app/share/icons/hicolor/48x48/apps",
                 "cp share/icons/frozen-bubble-icon-48x48.png /app/share/icons/hicolor/48x48/apps/frozen-bubble.png",
                 "mkdir -p /app/share/icons/hicolor/64x64/apps",
-                "cp share/icons/frozen-bubble-icon-64x64.png /app/share/icons/hicolor/64x64/apps/frozen-bubble.png"
+                "cp share/icons/frozen-bubble-icon-64x64.png /app/share/icons/hicolor/64x64/apps/frozen-bubble.png",
+                "mkdir -p /app/share/icons/hicolor/128x128/apps",
+                "cp frozen-bubble-icon-128x128.png /app/share/icons/hicolor/128x128/apps/frozen-bubble.png"
             ]
         }
     ]
