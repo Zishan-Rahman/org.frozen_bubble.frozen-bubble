@@ -300,6 +300,10 @@
             "name": "perl-archive-zip",
             "cleanup": ["/bin"],
             "no-autogen": true,
+            "build-options": {
+                "no-debuginfo": true,
+                "strip": false
+            },
             "sources": [
                 {
                     "type": "archive",
