@@ -240,6 +240,10 @@
         {
             "name": "perl-ipc-system-simple",
             "no-autogen": true,
+            "build-options": {
+                "no-debuginfo": true,
+                "strip": false
+            },
             "sources": [
                 {
                     "type": "archive",
