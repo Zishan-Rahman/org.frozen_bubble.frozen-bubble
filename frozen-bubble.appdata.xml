@@ -4,7 +4,7 @@
 EmailAddress: contact2@frozen-bubble.org
 SentUpstream: 2014-09-17
 -->
-<component type="desktop">
+<component type="desktop-application">
   <id>org.frozen_bubble.frozen-bubble</id>
   <developer_name>The Frozen-Bubble Team</developer_name>
   <project_license>GPL-2.0</project_license>
