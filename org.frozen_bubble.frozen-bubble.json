@@ -260,6 +260,10 @@
         {
             "name": "perl-locale-maketext-lexicon",
             "no-autogen": true,
+            "build-options": {
+                "no-debuginfo": true,
+                "strip": false
+            },
             "sources": [
                 {
                     "type": "archive",
