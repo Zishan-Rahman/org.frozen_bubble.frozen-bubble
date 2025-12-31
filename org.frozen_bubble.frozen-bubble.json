@@ -220,11 +220,15 @@
         {
             "name": "perl-file-slurp",
             "no-autogen": true,
+            "build-options": {
+                "no-debuginfo": true,
+                "strip": false
+            },
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://search.cpan.org/CPAN/authors/id/C/CA/CAPOEIRAB/File-Slurp-9999.32.tar.gz",
-                    "sha256": "4c3c21992a9d42be3a79dd74a3c83d27d38057269d65509a2f555ea0fb2bc5b0"
+                    "url": "https://search.cpan.org/CPAN/authors/id/U/UR/URI/File-Slurp-9999.19.tar.gz",
+                    "sha256": "ce29ebe995097ebd6e9bc03284714cdfa0c46dc94f6b14a56980747ea3253643"
                 },
                 {
                     "type": "file",
